@@ -1,3 +1,5 @@
+<h1 align="center" style="display:none;">Moksh Sharma - AI Agent Builder, Computer Vision Engineer &amp; Machine Learning Lead</h1>
+
 <div align="center">
 
 <!-- Custom SVG Profile Banner with Bounding Boxes & Tech HUD -->
@@ -14,7 +16,8 @@
 
 <br/>
 
-<!-- Identity Configuration Block -->
+## 👨‍💻 whoami
+
 <table width="100%">
 <tr>
 <td width="100%" valign="middle">
@@ -39,63 +42,57 @@ mission: >
 
 <br/>
 
-<div align="center">
-
-## `[ 0x01 ]` STACK.CONFIG
-
-</div>
+## 🛠️ tech_stack.sh
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-#### `// 0x01A: AGENTIC_AI_LAYER`
-- **LangGraph** &nbsp; ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=39FF14)
-- **LangSmith** &nbsp; ![LangSmith](https://img.shields.io/badge/LangSmith-000000?style=flat-square&logo=langchain&logoColor=39FF14)
-- **RAG** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![RAG](https://img.shields.io/badge/RAG_Systems-000000?style=flat-square&logoColor=39FF14)
+#### `// AGENTIC_AI_STACK`
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=39FF14)
+![LangSmith](https://img.shields.io/badge/LangSmith-000000?style=flat-square&logo=langchain&logoColor=39FF14)
+![RAG](https://img.shields.io/badge/RAG_Systems-000000?style=flat-square&logoColor=39FF14)
 
 </td>
 <td width="50%" valign="top">
 
-#### `// 0x01B: GENERATIVE_AI_LAYER`
-- **LangChain** &nbsp; ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=00FFAA)
-- **LangSmith** &nbsp; ![LangSmith](https://img.shields.io/badge/LangSmith-000000?style=flat-square&logo=langchain&logoColor=00FFAA)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### `// 0x01C: COMPUTER_VISION_LAYER`
-- **OpenCV** &nbsp;&nbsp;&nbsp;&nbsp; ![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=flat-square&logo=opencv&logoColor=39FF14)
-- **MediaPipe** &nbsp; ![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=flat-square&logo=google&logoColor=39FF14)
-
-</td>
-<td width="50%" valign="top">
-
-#### `// 0x01D: MODEL_CONTEXT_PROTOCOL`
-- **FastMCP** &nbsp;&nbsp;&nbsp; ![FastMCP](https://img.shields.io/badge/FastMCP-000000?style=flat-square&logoColor=00FFAA)
-- **Claude** &nbsp;&nbsp;&nbsp;&nbsp; ![Claude](https://img.shields.io/badge/Claude-000000?style=flat-square&logo=anthropic&logoColor=00FFAA)
+#### `// GENERATIVE_AI_STACK`
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=00FFAA)
+![LangSmith](https://img.shields.io/badge/LangSmith-000000?style=flat-square&logo=langchain&logoColor=00FFAA)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### `// 0x01E: MACHINE_LEARNING_ENGINE`
-- **Algorithms** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Regression` · `Classification` · `Clustering`
-- **Data Pipelines** &nbsp;&nbsp; `Feature Engineering` · `Preprocessing` · `Evaluation`
-- **XGBoost** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![XGBoost](https://img.shields.io/badge/XGBoost-000000?style=flat-square&logoColor=39FF14)
-- **Scikit-Learn** &nbsp;&nbsp;&nbsp;&nbsp; ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=flat-square&logo=scikitlearn&logoColor=39FF14)
+#### `// COMPUTER_VISION_STACK`
+![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=flat-square&logo=opencv&logoColor=39FF14)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=flat-square&logo=google&logoColor=39FF14)
 
 </td>
 <td width="50%" valign="top">
 
-#### `// 0x01F: DATA_SCIENCE_ECOSYSTEM`
-- **NumPy** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![NumPy](https://img.shields.io/badge/NumPy-000000?style=flat-square&logo=numpy&logoColor=00FFAA)
-- **Pandas** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Pandas](https://img.shields.io/badge/Pandas-000000?style=flat-square&logo=pandas&logoColor=00FFAA)
-- **Matplotlib** &nbsp; ![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=flat-square&logo=matplotlib&logoColor=00FFAA)
-- **Seaborn** &nbsp;&nbsp;&nbsp;&nbsp; ![Seaborn](https://img.shields.io/badge/Seaborn-000000?style=flat-square&logo=pandas&logoColor=00FFAA)
+#### `// MODEL_CONTEXT_PROTOCOL`
+![FastMCP](https://img.shields.io/badge/FastMCP-000000?style=flat-square&logoColor=00FFAA)
+![Claude](https://img.shields.io/badge/Claude-000000?style=flat-square&logo=anthropic&logoColor=00FFAA)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### `// MACHINE_LEARNING_STACK`
+![XGBoost](https://img.shields.io/badge/XGBoost-000000?style=flat-square&logoColor=39FF14)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=flat-square&logo=scikitlearn&logoColor=39FF14)
+
+</td>
+<td width="50%" valign="top">
+
+#### `// DATA_SCIENCE_STACK`
+![NumPy](https://img.shields.io/badge/NumPy-000000?style=flat-square&logo=numpy&logoColor=00FFAA)
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=flat-square&logo=pandas&logoColor=00FFAA)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=flat-square&logo=matplotlib&logoColor=00FFAA)
+![Seaborn](https://img.shields.io/badge/Seaborn-000000?style=flat-square&logo=pandas&logoColor=00FFAA)
 
 </td>
 </tr>
@@ -128,11 +125,7 @@ mission: >
 
 <br/>
 
-<div align="center">
-
-## `[ 0x02 ]` DEPLOYED_SYSTEMS
-
-</div>
+## 🚀 featured_builds
 
 <table width="100%">
 <tr>
@@ -175,14 +168,31 @@ mission: >
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### `[ SYSTEM_05 ]` SafeLife AI
+> **Interface**: Reinforcement Learning Safety Agent.
+* Core training pipeline using Gymnasium and policy-gradient reinforcement learning methods.
+* Optimizes navigation and goal achievement while minimizing negative environmental side-effects.
+* **Core Stack**: `Python` · `PyTorch` · `Gymnasium` · `RL_Algorithms`
+
+</td>
+<td width="50%" valign="top">
+
+### `[ SYSTEM_06 ]` Additional Builds
+> **Interface**: Logic-Based System Runtimes.
+* Light Python applications designed for testing general software engineering concepts.
+* Includes custom command-line utilities, authentication helpers, and logic game state engines.
+* **Core Stack**: `Python` · `Tkinter` · `Standard_Libraries`
+
+</td>
+</tr>
 </table>
 
 <div align="center">
 
-`// ADDITIONAL SYSTEM BUILDS`
-<sub>Tic Tac Toe · Password Generator · Alarm Clock · To-Do List (Python-based logic builds)</sub>
-
-<br/><br/>
+<br/>
 
 <a href="https://github.com/MOKSH0077?tab=repositories">
   <img src="https://img.shields.io/badge/LOG_INTO_SYSTEM_REPOSITORIES-000000?style=for-the-badge&labelColor=39FF14&color=000000"/>
@@ -192,11 +202,7 @@ mission: >
 
 <br/>
 
-<div align="center">
-
-## `[ 0x03 ]` ACHIEVEMENTS_LOG
-
-</div>
+## 🏆 achievements
 
 <table width="100%">
 <tr>
@@ -237,9 +243,9 @@ mission: >
 
 <br/>
 
-<div align="center">
+## 📊 system_metrics
 
-## `[ 0x04 ]` SYSTEM_METRICS
+<div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=MOKSH0077&show_icons=true&theme=chartreuse-dark&bg_color=05070a&title_color=39FF14&icon_color=00FFAA&text_color=c9d1d9&border_color=39FF14&border_radius=10" width="48%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MOKSH0077&theme=github-dark-blue&background=05070a&ring=39FF14&fire=00FFAA&currStreakLabel=39FF14&border=39FF14&border_radius=10" width="48%"/>
@@ -252,9 +258,9 @@ mission: >
 
 <br/>
 
-<div align="center">
+## 📬 connect
 
-## `[ 0x05 ]` CONNECT
+<div align="center">
 
 <a href="mailto:mokshgargacharya8@gmail.com"><img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=39FF14"/></a>
 <a href="https://www.linkedin.com/in/moksh-sharma-0a5188337"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14"/></a>

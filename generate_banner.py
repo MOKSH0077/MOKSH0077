@@ -16,7 +16,7 @@ def generate_svg_banner(image_path, output_path):
         
     image_uri = f"data:{mime_type};base64,{encoded_string}"
     
-    # Premium Futuristic HUD SVG Layout
+    # Clean, premium Futuristic HUD SVG Layout
     svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%" height="100%" style="background:#07090e; font-family:'Fira Code', 'Courier New', monospace;">
   <defs>
     <!-- Background Gradient -->
@@ -46,6 +46,11 @@ def generate_svg_banner(image_path, output_path):
     <clipPath id="avatar-clip">
       <rect x="40" y="40" width="300" height="300" rx="20" />
     </clipPath>
+
+    <!-- Scanline Pattern for Camera Feed Look -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#000000" stroke-width="1.5" opacity="0.2" />
+    </pattern>
   </defs>
 
   <!-- Background Rect with tech grid lines -->
@@ -67,13 +72,60 @@ def generate_svg_banner(image_path, output_path):
   <path d="M 995,350 L 995,375 L 970,375" fill="none" stroke="#00ffa3" stroke-width="3" filter="url(#neon-glow-green)" />
 
   <!-- ==================== LEFT COLUMN: COMPUTER VISION HUD ==================== -->
-  <!-- Profile Picture Container -->
   <g>
     <!-- Background of Image Box -->
     <rect x="40" y="40" width="300" height="300" rx="20" fill="#0b131f" stroke="#122538" stroke-width="2" />
     
     <!-- Base64 Encoded Profile Image -->
     <image x="40" y="40" width="300" height="300" href="{image_uri}" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
+    
+    <!-- Scanline overlay -->
+    <rect x="40" y="40" width="300" height="300" fill="url(#scanlines)" clip-path="url(#avatar-clip)" />
+    
+    <!-- MediaPipe-Style 3D Facial Keypoints & Mesh Connections Overlay -->
+    <g stroke="#39ff14" stroke-width="0.8" opacity="0.6">
+      <!-- Face Mesh Edges -->
+      <line x1="190" y1="95" x2="160" y2="115" />
+      <line x1="190" y1="95" x2="220" y2="115" />
+      <line x1="190" y1="95" x2="190" y2="120" />
+      <line x1="160" y1="115" x2="175" y2="125" />
+      <line x1="220" y1="115" x2="205" y2="125" />
+      <line x1="190" y1="120" x2="175" y2="125" />
+      <line x1="190" y1="120" x2="205" y2="125" />
+      <line x1="175" y1="125" x2="190" y2="145" />
+      <line x1="205" y1="125" x2="190" y2="145" />
+      <line x1="160" y1="115" x2="150" y2="155" />
+      <line x1="220" y1="115" x2="230" y2="155" />
+      <line x1="175" y1="125" x2="150" y2="155" />
+      <line x1="205" y1="125" x2="230" y2="155" />
+      <line x1="150" y1="155" x2="165" y2="195" />
+      <line x1="230" y1="155" x2="215" y2="195" />
+      <line x1="190" y1="145" x2="190" y2="175" />
+      <line x1="150" y1="155" x2="190" y2="175" />
+      <line x1="230" y1="155" x2="190" y2="175" />
+      <line x1="165" y1="195" x2="190" y2="215" />
+      <line x1="215" y1="195" x2="190" y2="215" />
+      <line x1="190" y1="175" x2="190" y2="215" />
+      <line x1="165" y1="195" x2="190" y2="175" />
+      <line x1="215" y1="195" x2="190" y2="175" />
+    </g>
+
+    <!-- Face Mesh Vertices -->
+    <g fill="#00e5ff" opacity="0.9">
+      <circle cx="190" cy="95" r="2.5" />
+      <circle cx="160" cy="115" r="2.5" />
+      <circle cx="220" cy="115" r="2.5" />
+      <circle cx="175" cy="125" r="2.5" />
+      <circle cx="205" cy="125" r="2.5" />
+      <circle cx="190" cy="120" r="2.5" />
+      <circle cx="190" cy="145" r="2.5" />
+      <circle cx="150" cy="155" r="2.5" />
+      <circle cx="230" cy="155" r="2.5" />
+      <circle cx="190" cy="175" r="2.5" />
+      <circle cx="165" cy="195" r="2.5" />
+      <circle cx="215" cy="195" r="2.5" />
+      <circle cx="190" cy="215" r="2.5" />
+    </g>
     
     <!-- Target Bounding Box Corners (Computer Vision Style) -->
     <!-- Top-Left Corner -->
@@ -87,7 +139,7 @@ def generate_svg_banner(image_path, output_path):
     
     <!-- CV Bounding Box Target Label -->
     <rect x="40" y="40" width="220" height="22" rx="4" fill="#00ffa3" opacity="0.85" />
-    <text x="50" y="55" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" fill="#000">OBJ_DETECT: HUMAN_ENG // 99.85%</text>
+    <text x="50" y="55" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" fill="#000">FACE_MESH: LOCKED // CONF: 99.85%</text>
 
     <!-- Bottom CV Scanning Bar (Subtle) -->
     <line x1="40" y1="300" x2="340" y2="300" stroke="#00ffa3" stroke-width="1.5" opacity="0.7" stroke-dasharray="8 4" />
@@ -98,21 +150,17 @@ def generate_svg_banner(image_path, output_path):
   
   <!-- Main Name Header -->
   <g transform="translate(390, 45)">
-    <!-- Decorative Tag -->
-    <rect x="0" y="0" width="85" height="18" rx="3" fill="#00e5ff" opacity="0.2" />
-    <text x="8" y="13" font-size="9" font-weight="bold" fill="#00e5ff">> COGNITIVE_NODE</text>
-    
-    <text x="0" y="52" font-size="36" font-weight="bold" fill="#ffffff" letter-spacing="1">MOKSH SHARMA</text>
-    <text x="2" y="78" font-size="14" font-weight="bold" fill="#00ffa3">> AI AGENT BUILDER | CV ENGINEER | ML SYSTEMS</text>
+    <text x="0" y="40" font-size="36" font-weight="bold" fill="#ffffff" letter-spacing="1">MOKSH SHARMA</text>
+    <text x="2" y="68" font-size="14" font-weight="bold" fill="#00ffa3">> AI AGENT BUILDER | CV ENGINEER | ML SYSTEMS</text>
     
     <!-- Divider HUD Line -->
-    <line x1="0" y1="92" x2="570" y2="92" stroke="#1b354f" stroke-width="2" />
-    <rect x="0" y="90" width="35" height="5" fill="#00ffa3" />
-    <circle cx="565" cy="92" r="3" fill="#00e5ff" />
+    <line x1="0" y1="84" x2="570" y2="84" stroke="#1b354f" stroke-width="1.5" />
+    <rect x="0" y="83" width="45" height="3" fill="#00ffa3" />
+    <circle cx="565" cy="84" r="3" fill="#00e5ff" />
   </g>
 
   <!-- Cyber System Metadata Dashboard Panel -->
-  <g transform="translate(390, 160)">
+  <g transform="translate(390, 150)">
     <!-- Tech Frame -->
     <rect x="0" y="0" width="570" height="135" rx="8" fill="#0a1017" stroke="#1b354f" stroke-width="1" />
     <path d="M 0,20 L 0,0 L 20,0" fill="none" stroke="#00e5ff" stroke-width="2" />
@@ -145,19 +193,9 @@ def generate_svg_banner(image_path, output_path):
   </g>
 
   <!-- Lower Tech Stats Decors -->
-  <g transform="translate(390, 315)">
-    <!-- Graphic Elements simulating visual network nodes / processing metrics -->
-    <rect x="0" y="0" width="12" height="12" fill="#00ffa3" opacity="0.8" />
-    <rect x="20" y="0" width="12" height="12" fill="#00ffa3" opacity="0.5" />
-    <rect x="40" y="0" width="12" height="12" fill="#00ffa3" opacity="0.2" />
-    
-    <text x="65" y="10" font-size="9" fill="#00ffa3" font-weight="bold">AGENT_RUNTIME_SYS: v3.5.5-STABLE</text>
-
-    <!-- Simulated Waveform -->
-    <path d="M 330,6 L 340,-2 L 350,14 L 360,-6 L 370,10 L 380,2 L 390,6 L 400,6 L 410,-6 L 420,12 L 430,-2 L 440,6" fill="none" stroke="#00e5ff" stroke-width="1.5" opacity="0.6" filter="url(#neon-glow-blue)" />
-    
-    <circle cx="470" cy="6" r="4" fill="#00ffa3" filter="url(#neon-glow-green)" />
-    <text x="482" y="10" font-size="9" fill="#ffffff" opacity="0.8">CORE.HEALTH: ACTIVE (100%)</text>
+  <g transform="translate(390, 310)">
+    <text x="0" y="10" font-size="9" fill="#00ffa3" font-weight="bold">> ENGINE_STATUS: OPERATIONAL</text>
+    <text x="260" y="10" font-size="9" fill="#8ca0b3">SYSTEM_LOAD: 12% // ACTIVE_THREADS: 48 // LATENCY: 2ms</text>
   </g>
 </svg>
 """
@@ -168,13 +206,10 @@ def generate_svg_banner(image_path, output_path):
     return True
 
 if __name__ == "__main__":
-    # Correct file names on the user's workspace
     img_name = "WhatsApp Image 2026-07-16 at 10.40.02 PM.jpeg"
     workspace_dir = "d:\\New folder"
     
     img_path = os.path.join(workspace_dir, img_name)
-    
-    # Create an assets folder inside workspace if it doesn't exist
     assets_dir = os.path.join(workspace_dir, "assets")
     if not os.path.exists(assets_dir):
         os.makedirs(assets_dir)
