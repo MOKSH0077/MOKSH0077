@@ -1,135 +1,139 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0F1A,50:1A1A2E,100:16213E&height=200&section=header&text=MOKSH%20SHARMA&fontSize=50&fontColor=00F5FF&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20Building%20Intelligent%20Systems&descAlignY=58&descSize=18&descColor=8B8BFF"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:0D1F17,70:0A2A1F,100:001A12&height=220&section=header&text=MOKSH%20SHARMA&fontSize=48&fontColor=39FF14&animation=fadeIn&fontAlignY=35&desc=Computer%20Vision%20%2B%20Machine%20Learning%20Engineer&descAlignY=55&descSize=18&descColor=00FF9C"/>
 
 <a href="https://github.com/MOKSH0077">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Agentic+%2B+Generative+AI+Developer;Computer+Vision+%7C+OpenCV+%2B+MediaPipe;Machine+Learning+%2F+XGBoost+%2F+Scikit-learn;MCP+%7C+Claude+%7C+Cursor+%7C+VS+Code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=750&lines=%5Bsystem%5D+initializing+vision+pipeline...;%5Bmodule%5D+OpenCV+%2B+MediaPipe+%3A%3A+loaded;%5Bmodel%5D+Random+Forest+%2F+XGBoost+%3A%3A+ready;%5Bstatus%5D+Agentic+%2B+Generative+AI+%3A%3A+online" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=MOKSH0077&label=PROFILE+VIEWS&color=0F0F1A&style=for-the-badge&labelColor=00F5FF)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F5FF)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00F5FF)](mailto:mokshgargacharya8@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=MOKSH0077&label=SYSTEM+VIEWS&color=000000&style=for-the-badge&labelColor=39FF14)
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-000000?style=for-the-badge&labelColor=001A12&color=39FF14)
 
 </div>
 
 <br/>
 
-## `👨‍💻` whoami
+## `>_` boot_sequence
 
-```python
-class Moksh:
-    def __init__(self):
-        self.name       = "Moksh Sharma"
-        self.education  = "B.Tech CSE @ DCRUST Murthal (2024 - 2028)"
-        self.role       = "AI/ML Lead @ GDG On Campus DCRUST"
-        self.focus      = ["Machine Learning", "Computer Vision", "Agentic AI", "Generative AI"]
-        self.currently  = "building real-time AI systems & exploring MCP"
-
-    def say_hi(self):
-        print("Turning data into decisions, and prompts into pipelines.")
-
-me = Moksh()
-me.say_hi()
+```bash
+[  0.0001 ] moksh@dcrust:~$ whoami
+[  0.0042 ] > Moksh Sharma — B.Tech CSE @ DCRUST Murthal (2024 - 2028)
+[  0.0091 ] > Role        : AI/ML Lead @ GDG On Campus DCRUST
+[  0.0133 ] > Core Focus  : Computer Vision | Machine Learning | Agentic AI | Generative AI
+[  0.0170 ] > Building    : real-time perception systems + intelligent ML pipelines
+[  0.0201 ] loading model weights ................. [ OK ]
+[  0.0244 ] mounting camera stream ................ [ OK ]
+[  0.0288 ] initializing landmark detector ........ [ OK ]
+[  0.0312 ] status: READY
 ```
 
 <br/>
 
-## `🧠` tech_stack
+## `⚙` tech_stack.cfg
 
-<div align="center">
-
-### Languages
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00F5FF)
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=00F5FF)
-![C++](https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00F5FF)
-
-### AI / ML / Computer Vision
-![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=00F5FF)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0D1117?style=for-the-badge&logo=google&logoColor=00F5FF)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=00F5FF)
-![XGBoost](https://img.shields.io/badge/XGBoost-0D1117?style=for-the-badge&logo=xgboost&logoColor=00F5FF)
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=00F5FF)
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=00F5FF)
-
-### Agentic & Generative AI
-![Claude](https://img.shields.io/badge/Claude-0D1117?style=for-the-badge&logo=anthropic&logoColor=00F5FF)
-![MCP](https://img.shields.io/badge/MCP-0D1117?style=for-the-badge&logo=protocols.io&logoColor=00F5FF)
-![Cursor](https://img.shields.io/badge/Cursor-0D1117?style=for-the-badge&logo=cursor&logoColor=00F5FF)
-
-### Tools
-![VS Code](https://img.shields.io/badge/VS%20Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=00F5FF)
-![Google Colab](https://img.shields.io/badge/Colab-0D1117?style=for-the-badge&logo=googlecolab&logoColor=00F5FF)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F5FF)
-
-</div>
-
-<br/>
-
-## `🚀` featured_systems
-
-<table>
+<table width="100%">
+<tr><th align="left" width="20%">🗂️ CATEGORY</th><th align="left">🔧 STACK</th></tr>
 <tr>
-<td width="50%">
-
-### 🖐️ AI Virtual Mouse
-Real-time hand gesture recognition for cursor control using landmark detection and frame processing optimization.
-
-`OpenCV` `MediaPipe` `Python`
-
-</td>
-<td width="50%">
-
-### 🏋️ Workout Recommender System
-ML-based recommendation logic for personalized workout suggestions using XGBClassifier.
-
-`Python` `Pandas` `XGBoost`
-
+<td><b>Languages</b></td>
+<td>
+<img src="https://img.shields.io/badge/Python-39FF14?style=flat-square&logo=python&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Java-39FF14?style=flat-square&logo=openjdk&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/C++-39FF14?style=flat-square&logo=cplusplus&logoColor=000000&labelColor=000000"/>
 </td>
 </tr>
 <tr>
-<td width="50%">
-
-### 🏠 House Price Prediction
-Random Forest regression + classification model with feature engineering, evaluated via R² and MAE.
-
-`Scikit-learn` `Pandas` `Matplotlib`
-
+<td><b>Computer Vision</b></td>
+<td>
+<img src="https://img.shields.io/badge/OpenCV-39FF14?style=flat-square&logo=opencv&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/MediaPipe-39FF14?style=flat-square&logo=google&logoColor=000000&labelColor=000000"/>
 </td>
-<td width="50%">
-
-### 🚗 Car Price Prediction Model
-Supervised learning pipeline — data cleaning, encoding, and model validation with Random Forest.
-
-`Python` `Scikit-learn`
-
+</tr>
+<tr>
+<td><b>Machine Learning</b></td>
+<td>
+<img src="https://img.shields.io/badge/Scikit--learn-39FF14?style=flat-square&logo=scikitlearn&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/XGBoost-39FF14?style=flat-square&logo=xgboost&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/NumPy-39FF14?style=flat-square&logo=numpy&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Pandas-39FF14?style=flat-square&logo=pandas&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Matplotlib-39FF14?style=flat-square&logo=plotly&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Seaborn-39FF14?style=flat-square&logo=python&logoColor=000000&labelColor=000000"/>
+</td>
+</tr>
+<tr>
+<td><b>Agentic & Generative AI</b></td>
+<td>
+<img src="https://img.shields.io/badge/Claude-39FF14?style=flat-square&logo=anthropic&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/MCP-39FF14?style=flat-square&logo=protocolsdotio&logoColor=000000&labelColor=000000"/>
+</td>
+</tr>
+<tr>
+<td><b>Tools</b></td>
+<td>
+<img src="https://img.shields.io/badge/VS%20Code-39FF14?style=flat-square&logo=visualstudiocode&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Cursor-39FF14?style=flat-square&logo=cursor&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Google%20Colab-39FF14?style=flat-square&logo=googlecolab&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Streamlit-39FF14?style=flat-square&logo=streamlit&logoColor=000000&labelColor=000000"/>
+<img src="https://img.shields.io/badge/GitHub-39FF14?style=flat-square&logo=github&logoColor=000000&labelColor=000000"/>
 </td>
 </tr>
 </table>
 
-> Full project list, code, and live links → **[github.com/MOKSH0077](https://github.com/MOKSH0077)** &nbsp;|&nbsp; **[Resume (PDF)](#)**
+<br/>
+
+## `◎` vision_and_ml_pipeline
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│ MODULE 01 · AI VIRTUAL MOUSE                                      │
+│ Real-time hand-gesture cursor control via landmark detection      │
+│ and frame-processing optimization.                                │
+│ stack: OpenCV · MediaPipe · Python                                │
+├──────────────────────────────────────────────────────────────────┤
+│ MODULE 02 · WORKOUT RECOMMENDER SYSTEM                             │
+│ ML-based recommendation engine for personalized workout plans      │
+│ using XGBClassifier.                                               │
+│ stack: Python · Pandas · XGBoost                                   │
+├──────────────────────────────────────────────────────────────────┤
+│ MODULE 03 · HOUSE PRICE PREDICTION SYSTEM                          │
+│ Random Forest regression + classification with feature             │
+│ engineering, evaluated via R² and MAE.                              │
+│ stack: Scikit-learn · Pandas · Matplotlib                          │
+├──────────────────────────────────────────────────────────────────┤
+│ MODULE 04 · CAR PRICE PREDICTION MODEL                              │
+│ Supervised learning pipeline — cleaning, encoding, validation       │
+│ with Random Forest.                                                 │
+│ stack: Python · Scikit-learn                                        │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+**[→ view all repositories on GitHub](https://github.com/MOKSH0077)**
+
+</div>
 
 <br/>
 
-## `🏆` achievements
+## `★` achievement_log
 
 ```yaml
-role: AI/ML Lead — GDG On Campus DCRUST (2025-2026)
-hackathons_won: 2x
-notable_win: "1st Runner Up — Technophilia Hackathon, Delhi University"
+lead_role:      "AI/ML Lead — GDG On Campus DCRUST (2025-2026)"
+hackathons_won: 2
+notable_result: "1st Runner-Up — Technophilia Hackathon, Delhi University"
 ```
 
 <br/>
 
-## `📊` github_metrics
+## `▣` system_metrics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MOKSH0077&show_icons=true&theme=react&bg_color=0D1117&title_color=00F5FF&icon_color=00F5FF&text_color=8B8BFF&border_color=00F5FF&border_radius=10" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MOKSH0077&theme=react&background=0D1117&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&border=00F5FF&border_radius=10" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=MOKSH0077&show_icons=true&theme=chartreuse-dark&bg_color=000000&title_color=39FF14&icon_color=39FF14&text_color=00FF9C&border_color=39FF14&border_radius=10&hide_border=false" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MOKSH0077&theme=dark&background=000000&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&border=39FF14&border_radius=10" width="48%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MOKSH0077&theme=react&bg_color=0D1117&title_color=00F5FF&text_color=8B8BFF&border_color=00F5FF&layout=compact&border_radius=10" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MOKSH0077&theme=chartreuse-dark&bg_color=000000&title_color=39FF14&text_color=00FF9C&border_color=39FF14&layout=compact&border_radius=10" width="46%"/>
 
 </div>
 
@@ -137,8 +141,10 @@ notable_win: "1st Runner Up — Technophilia Hackathon, Delhi University"
 
 <div align="center">
 
-_"Turning data into decisions, and prompts into pipelines."_
+```
+> perception + prediction, running in real time.
+```
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213E,50:1A1A2E,100:0F0F1A&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:001A12,35:0A2A1F,70:0D1F17,100:000000&height=120&section=footer"/>
 
 </div>
