@@ -16,7 +16,7 @@ def generate_svg_banner(image_path, output_path):
         
     image_uri = f"data:{mime_type};base64,{encoded_string}"
     
-    # Clean, premium Futuristic HUD SVG Layout
+    # Minimalist, premium Futuristic HUD SVG Layout
     svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%" height="100%" style="background:#07090e; font-family:'Fira Code', 'Courier New', monospace;">
   <defs>
     <!-- Background Gradient -->
@@ -28,14 +28,6 @@ def generate_svg_banner(image_path, output_path):
     <!-- Cyber Neon Glows -->
     <filter id="neon-glow-green" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <filter id="neon-glow-blue" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -80,70 +72,30 @@ def generate_svg_banner(image_path, output_path):
     <image x="40" y="40" width="300" height="300" href="{image_uri}" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
     
     <!-- Scanline overlay -->
-    <rect x="40" y="40" width="300" height="300" fill="url(#scanlines)" clip-path="url(#avatar-clip)" />
+    <rect x="40" y="40" width="300" height="300" fill="url(#scanlines)" clip-path="url(#avatar-clip)" opacity="0.8" />
     
-    <!-- MediaPipe-Style 3D Facial Keypoints & Mesh Connections Overlay -->
-    <g stroke="#39ff14" stroke-width="0.8" opacity="0.6">
-      <!-- Face Mesh Edges -->
-      <line x1="190" y1="95" x2="160" y2="115" />
-      <line x1="190" y1="95" x2="220" y2="115" />
-      <line x1="190" y1="95" x2="190" y2="120" />
-      <line x1="160" y1="115" x2="175" y2="125" />
-      <line x1="220" y1="115" x2="205" y2="125" />
-      <line x1="190" y1="120" x2="175" y2="125" />
-      <line x1="190" y1="120" x2="205" y2="125" />
-      <line x1="175" y1="125" x2="190" y2="145" />
-      <line x1="205" y1="125" x2="190" y2="145" />
-      <line x1="160" y1="115" x2="150" y2="155" />
-      <line x1="220" y1="115" x2="230" y2="155" />
-      <line x1="175" y1="125" x2="150" y2="155" />
-      <line x1="205" y1="125" x2="230" y2="155" />
-      <line x1="150" y1="155" x2="165" y2="195" />
-      <line x1="230" y1="155" x2="215" y2="195" />
-      <line x1="190" y1="145" x2="190" y2="175" />
-      <line x1="150" y1="155" x2="190" y2="175" />
-      <line x1="230" y1="155" x2="190" y2="175" />
-      <line x1="165" y1="195" x2="190" y2="215" />
-      <line x1="215" y1="195" x2="190" y2="215" />
-      <line x1="190" y1="175" x2="190" y2="215" />
-      <line x1="165" y1="195" x2="190" y2="175" />
-      <line x1="215" y1="195" x2="190" y2="175" />
-    </g>
-
-    <!-- Face Mesh Vertices -->
-    <g fill="#00e5ff" opacity="0.9">
-      <circle cx="190" cy="95" r="2.5" />
-      <circle cx="160" cy="115" r="2.5" />
-      <circle cx="220" cy="115" r="2.5" />
-      <circle cx="175" cy="125" r="2.5" />
-      <circle cx="205" cy="125" r="2.5" />
-      <circle cx="190" cy="120" r="2.5" />
-      <circle cx="190" cy="145" r="2.5" />
-      <circle cx="150" cy="155" r="2.5" />
-      <circle cx="230" cy="155" r="2.5" />
-      <circle cx="190" cy="175" r="2.5" />
-      <circle cx="165" cy="195" r="2.5" />
-      <circle cx="215" cy="195" r="2.5" />
-      <circle cx="190" cy="215" r="2.5" />
-    </g>
+    <!-- Clean, Bounding Box Target (CV object detection style) -->
+    <rect x="135" y="80" width="110" height="115" fill="none" stroke="#00ffa3" stroke-width="1.5" stroke-dasharray="3 3" />
     
-    <!-- Target Bounding Box Corners (Computer Vision Style) -->
+    <!-- Target Lock Brackets -->
+    <path d="M 130,95 L 130,75 L 150,75" fill="none" stroke="#00ffa3" stroke-width="2" />
+    <path d="M 250,95 L 250,75 L 230,75" fill="none" stroke="#00ffa3" stroke-width="2" />
+    <path d="M 130,180 L 130,200 L 150,200" fill="none" stroke="#00ffa3" stroke-width="2" />
+    <path d="M 250,180 L 250,200 L 230,200" fill="none" stroke="#00ffa3" stroke-width="2" />
+    
+    <!-- Bounding Box Label -->
+    <rect x="135" y="58" width="110" height="18" rx="2" fill="#00ffa3" />
+    <text x="141" y="70" font-family="'Fira Code', monospace" font-size="8" font-weight="bold" fill="#000">TARGET: MOKSH_SHARMA</text>
+    
+    <!-- Outer Image Frame Tech Brackets -->
     <!-- Top-Left Corner -->
-    <path d="M 30,55 L 30,30 L 55,30" fill="none" stroke="#00FFAA" stroke-width="3.5" filter="url(#neon-glow-green)" />
+    <path d="M 30,55 L 30,30 L 55,30" fill="none" stroke="#00FFAA" stroke-width="3" />
     <!-- Top-Right Corner -->
-    <path d="M 350,55 L 350,30 L 325,30" fill="none" stroke="#00FFAA" stroke-width="3.5" filter="url(#neon-glow-green)" />
+    <path d="M 350,55 L 350,30 L 325,30" fill="none" stroke="#00FFAA" stroke-width="3" />
     <!-- Bottom-Left Corner -->
-    <path d="M 30,325 L 30,350 L 55,350" fill="none" stroke="#00FFAA" stroke-width="3.5" filter="url(#neon-glow-green)" />
+    <path d="M 30,325 L 30,350 L 55,350" fill="none" stroke="#00FFAA" stroke-width="3" />
     <!-- Bottom-Right Corner -->
-    <path d="M 350,325 L 350,350 L 325,350" fill="none" stroke="#00FFAA" stroke-width="3.5" filter="url(#neon-glow-green)" />
-    
-    <!-- CV Bounding Box Target Label -->
-    <rect x="40" y="40" width="220" height="22" rx="4" fill="#00ffa3" opacity="0.85" />
-    <text x="50" y="55" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" fill="#000">FACE_MESH: LOCKED // CONF: 99.85%</text>
-
-    <!-- Bottom CV Scanning Bar (Subtle) -->
-    <line x1="40" y1="300" x2="340" y2="300" stroke="#00ffa3" stroke-width="1.5" opacity="0.7" stroke-dasharray="8 4" />
-    <text x="45" y="332" font-family="'Fira Code', monospace" font-size="9" fill="#00e5ff" opacity="0.8">SYS_STAT: MONITORING_ACTIVE</text>
+    <path d="M 350,325 L 350,350 L 325,350" fill="none" stroke="#00FFAA" stroke-width="3" />
   </g>
 
   <!-- ==================== RIGHT COLUMN: CYBERNETIC DETAILS ==================== -->
@@ -162,11 +114,11 @@ def generate_svg_banner(image_path, output_path):
   <!-- Cyber System Metadata Dashboard Panel -->
   <g transform="translate(390, 150)">
     <!-- Tech Frame -->
-    <rect x="0" y="0" width="570" height="135" rx="8" fill="#0a1017" stroke="#1b354f" stroke-width="1" />
+    <rect x="0" y="0" width="570" height="155" rx="8" fill="#0a1017" stroke="#1b354f" stroke-width="1" />
     <path d="M 0,20 L 0,0 L 20,0" fill="none" stroke="#00e5ff" stroke-width="2" />
     <path d="M 570,20 L 570,0 L 550,0" fill="none" stroke="#00e5ff" stroke-width="2" />
-    <path d="M 0,115 L 0,135 L 20,135" fill="none" stroke="#00e5ff" stroke-width="2" />
-    <path d="M 570,115 L 570,135 L 550,135" fill="none" stroke="#00e5ff" stroke-width="2" />
+    <path d="M 0,135 L 0,155 L 20,155" fill="none" stroke="#00e5ff" stroke-width="2" />
+    <path d="M 570,135 L 570,155 L 550,155" fill="none" stroke="#00e5ff" stroke-width="2" />
 
     <!-- Metadata Details -->
     <g transform="translate(20, 28)" font-size="11" fill="#8ca0b3">
@@ -190,12 +142,6 @@ def generate_svg_banner(image_path, output_path):
       <text x="0" y="96" font-weight="bold" fill="#00ffa3">STATUS LOG:</text>
       <text x="110" y="96" fill="#8ca0b3">ONLINE // PIPELINES RUNNING OPTIMAL // SECURE ✓</text>
     </g>
-  </g>
-
-  <!-- Lower Tech Stats Decors -->
-  <g transform="translate(390, 310)">
-    <text x="0" y="10" font-size="9" fill="#00ffa3" font-weight="bold">> ENGINE_STATUS: OPERATIONAL</text>
-    <text x="260" y="10" font-size="9" fill="#8ca0b3">SYSTEM_LOAD: 12% // ACTIVE_THREADS: 48 // LATENCY: 2ms</text>
   </g>
 </svg>
 """

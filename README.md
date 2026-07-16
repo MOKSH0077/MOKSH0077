@@ -1,5 +1,3 @@
-<h1 align="center" style="display:none;">Moksh Sharma - AI Agent Builder, Computer Vision Engineer &amp; Machine Learning Lead</h1>
-
 <div align="center">
 
 <!-- Custom SVG Profile Banner with Bounding Boxes & Tech HUD -->
@@ -44,9 +42,9 @@ mission: >
 
 ## 🛠️ tech_stack.sh
 
-<table width="100%">
+<table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### `// AGENTIC_AI_STACK`
 ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=39FF14)
@@ -54,7 +52,7 @@ mission: >
 ![RAG](https://img.shields.io/badge/RAG_Systems-000000?style=flat-square&logoColor=39FF14)
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### `// GENERATIVE_AI_STACK`
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=00FFAA)
@@ -63,14 +61,14 @@ mission: >
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### `// COMPUTER_VISION_STACK`
 ![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=flat-square&logo=opencv&logoColor=39FF14)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=flat-square&logo=google&logoColor=39FF14)
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### `// MODEL_CONTEXT_PROTOCOL`
 ![FastMCP](https://img.shields.io/badge/FastMCP-000000?style=flat-square&logoColor=00FFAA)
@@ -79,14 +77,14 @@ mission: >
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### `// MACHINE_LEARNING_STACK`
 ![XGBoost](https://img.shields.io/badge/XGBoost-000000?style=flat-square&logoColor=39FF14)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=flat-square&logo=scikitlearn&logoColor=39FF14)
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 #### `// DATA_SCIENCE_STACK`
 ![NumPy](https://img.shields.io/badge/NumPy-000000?style=flat-square&logo=numpy&logoColor=00FFAA)
@@ -216,18 +214,18 @@ mission: >
 </td>
 <td width="25%" align="center" valign="top">
 
-`[ SYSTEM_WON_01 ]`
-#### 1st Place Winner
+`[ RUNNER_UP_01 ]`
+#### 1st Runner-Up
 **Technophilia (Delhi Univ)**
-*Outperformed regional teams to secure 1st place in the flagship university hackathon.*
+*Secured 2nd place in the flagship Delhi University hackathon.*
 
 </td>
 <td width="25%" align="center" valign="top">
 
-`[ SYSTEM_WON_02 ]`
+`[ RUNNER_UP_02 ]`
 #### 1st Runner-Up
 **Evolotek Solutions Hackathon**
-*Awarded 2nd place at Scientific Convention Center, Lucknow for high-impact ML solutions.*
+*Awarded 2nd place at Scientific Convention Center, Lucknow for ML solutions.*
 
 </td>
 <td width="25%" align="center" valign="top">
