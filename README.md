@@ -10,7 +10,6 @@
 
 <a href="mailto:mokshgargacharya8@gmail.com"><img src="https://img.shields.io/badge/Gmail-0A0A1F?style=for-the-badge&logo=gmail&logoColor=00D9FF"/></a>
 <a href="https://github.com/MOKSH0077"><img src="https://img.shields.io/badge/GitHub-0A0A1F?style=for-the-badge&logo=github&logoColor=00D9FF"/></a>
-<img src="https://komarev.com/ghpvc/?username=MOKSH0077&label=PROFILE+SCANS&color=00D9FF&style=for-the-badge&labelColor=0A0A1F"/>
 
 </div>
 
@@ -35,10 +34,7 @@ mission: >
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Agentic_AI-0A0A1F?style=for-the-badge&logoColor=00D9FF&labelColor=0A0A1F&color=0A0A1F"/>
-<img src="https://img.shields.io/badge/Generative_AI-0A0A1F?style=for-the-badge&logoColor=B026FF&labelColor=0A0A1F&color=0A0A1F"/>
-<img src="https://img.shields.io/badge/Machine_Learning-0A0A1F?style=for-the-badge&logoColor=00D9FF&labelColor=0A0A1F&color=0A0A1F"/>
-<img src="https://img.shields.io/badge/Computer_Vision-0A0A1F?style=for-the-badge&logoColor=B026FF&labelColor=0A0A1F&color=0A0A1F"/>
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22radar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Agentic%20AI%22%2C%20%22Generative%20AI%22%2C%20%22Machine%20Learning%22%2C%20%22Computer%20Vision%22%2C%20%22Data%20Science%22%2C%20%22Languages%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Proficiency%22%2C%20%22data%22%3A%20%5B88%2C%2085%2C%2095%2C%2090%2C%2095%2C%2085%5D%2C%20%22backgroundColor%22%3A%20%22rgba%280%2C217%2C255%2C0.25%29%22%2C%20%22borderColor%22%3A%20%22%2300D9FF%22%2C%20%22borderWidth%22%3A%202%2C%20%22pointBackgroundColor%22%3A%20%22%23B026FF%22%2C%20%22pointBorderColor%22%3A%20%22%23B026FF%22%2C%20%22pointRadius%22%3A%204%7D%5D%7D%2C%20%22options%22%3A%20%7B%22responsive%22%3A%20true%2C%20%22scales%22%3A%20%7B%22r%22%3A%20%7B%22angleLines%22%3A%20%7B%22color%22%3A%20%22%232a2a45%22%7D%2C%20%22grid%22%3A%20%7B%22color%22%3A%20%22%232a2a45%22%7D%2C%20%22pointLabels%22%3A%20%7B%22color%22%3A%20%22%23e0e0ff%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2013%2C%20%22weight%22%3A%20%22bold%22%7D%7D%2C%20%22ticks%22%3A%20%7B%22display%22%3A%20false%2C%20%22backdropColor%22%3A%20%22transparent%22%7D%2C%20%22min%22%3A%200%2C%20%22max%22%3A%20100%7D%7D%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%7D%7D%7D&backgroundColor=%230A0A1F&width=550&height=450&devicePixelRatio=2" width="480"/>
 
 </div>
 
@@ -158,10 +154,35 @@ Supervised learning pipeline — data cleaning, encoding, and model validation w
 
 <br/>
 
-## `06` — achievements
+## `06` — how I build
+
+```mermaid
+flowchart LR
+    A[Raw Data / Video Feed] --> B[Preprocessing & Feature Engineering]
+    B --> C{Task Type}
+    C -->|Vision| D[OpenCV + MediaPipe Landmark Detection]
+    C -->|Prediction| E[Random Forest / XGBoost Model Training]
+    D --> F[Real-Time Inference]
+    E --> G[Evaluation: R2 / MAE / Accuracy]
+    F --> H((Deployed System))
+    G --> H
+
+    style A fill:#0A0A1F,stroke:#00D9FF,color:#e0e0ff
+    style B fill:#0A0A1F,stroke:#00D9FF,color:#e0e0ff
+    style C fill:#14142B,stroke:#B026FF,color:#e0e0ff
+    style D fill:#0A0A1F,stroke:#B026FF,color:#e0e0ff
+    style E fill:#0A0A1F,stroke:#B026FF,color:#e0e0ff
+    style F fill:#0A0A1F,stroke:#00D9FF,color:#e0e0ff
+    style G fill:#0A0A1F,stroke:#00D9FF,color:#e0e0ff
+    style H fill:#14142B,stroke:#00D9FF,color:#00D9FF
+```
+
+<br/>
+
+## `07` — achievements
 
 <table width="100%">
-<tr><td width="8%">🥇</td><td width="30%"><b>Hackathon Winner</b></td><td>Delhi University</td></tr>
+<tr><td width="8%">🥈</td><td width="30%"><b>1st Runner-Up</b></td><td>Delhi University</td></tr>
 <tr><td>🥈</td><td><b>1st Runner-Up</b></td><td>Evolotek Solutions Pvt. Ltd. — Atal Bihari Vajpayee Scientific Convention Center, Lucknow, UP</td></tr>
 <tr><td>🎖</td><td><b>3× Hackathon Finalist</b></td><td>Multiple national-level hackathons</td></tr>
 <tr><td>👥</td><td><b>AI/ML Lead</b></td><td>GDG On Campus DCRUST (2025–2026)</td></tr>
@@ -169,7 +190,7 @@ Supervised learning pipeline — data cleaning, encoding, and model validation w
 
 <br/>
 
-## `07` — system metrics
+## `08` — system metrics
 
 <div align="center">
 
