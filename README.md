@@ -8,32 +8,20 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/AI%2FML%20LEAD-GDG%20DCRUST-0A0A1F?style=for-the-badge&labelColor=00D9FF&color=0A0A1F"/>
-<img src="https://img.shields.io/badge/HACKATHONS-2%C3%97%20WON%20%C2%B7%203%C3%97%20FINALIST-0A0A1F?style=for-the-badge&labelColor=B026FF&color=0A0A1F"/>
-<img src="https://komarev.com/ghpvc/?username=MOKSH0077&label=PROFILE+SCANS&color=00D9FF&style=for-the-badge&labelColor=0A0A1F"/>
-
-<br/>
-
 <a href="mailto:mokshgargacharya8@gmail.com"><img src="https://img.shields.io/badge/Gmail-0A0A1F?style=for-the-badge&logo=gmail&logoColor=00D9FF"/></a>
 <a href="https://github.com/MOKSH0077"><img src="https://img.shields.io/badge/GitHub-0A0A1F?style=for-the-badge&logo=github&logoColor=00D9FF"/></a>
+<img src="https://komarev.com/ghpvc/?username=MOKSH0077&label=PROFILE+SCANS&color=00D9FF&style=for-the-badge&labelColor=0A0A1F"/>
 
 </div>
 
 <br/>
 
-## 🧬 `neural_profile.init()`
+## `$` core.identity
 
 ```yaml
-identity:
-  name:        Moksh Sharma
-  education:   B.Tech CSE — DCRUST Murthal (2024–2028)
-  role:        AI/ML Lead @ GDG On Campus DCRUST
-
-core_skills:
-  - Agentic AI Systems
-  - Generative AI
-  - Machine Learning
-  - Computer Vision
+name:      Moksh Sharma
+education: B.Tech CSE — DCRUST Murthal (2024–2028)
+role:      AI/ML Lead @ GDG On Campus DCRUST
 
 mission: >
   Designing intelligent systems that perceive, learn,
@@ -43,86 +31,105 @@ mission: >
 
 <br/>
 
-## ⚡ `skill_matrix`
+## `01` — core skills
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Agentic_AI-0A0A1F?style=for-the-badge&logoColor=00D9FF&labelColor=0A0A1F&color=0A0A1F"/>
+<img src="https://img.shields.io/badge/Generative_AI-0A0A1F?style=for-the-badge&logoColor=B026FF&labelColor=0A0A1F&color=0A0A1F"/>
+<img src="https://img.shields.io/badge/Machine_Learning-0A0A1F?style=for-the-badge&logoColor=00D9FF&labelColor=0A0A1F&color=0A0A1F"/>
+<img src="https://img.shields.io/badge/Computer_Vision-0A0A1F?style=for-the-badge&logoColor=B026FF&labelColor=0A0A1F&color=0A0A1F"/>
+
+</div>
 
 <table width="100%">
 <tr>
-<th align="left" width="30%">DOMAIN</th>
-<th align="left" width="20%">LEVEL</th>
-<th align="left">STACK</th>
+<th align="left" width="25%">DOMAIN</th>
+<th align="left">APPLIED STACK</th>
 </tr>
 <tr>
-<td>🤖 Agentic & Generative AI</td>
-<td><img src="https://img.shields.io/badge/●●●●○-90%25-0A0A1F?style=flat-square&labelColor=0A0A1F&color=B026FF"/></td>
+<td>Agentic &amp; Generative AI</td>
 <td>Claude · MCP · Cursor</td>
 </tr>
 <tr>
-<td>🧠 Machine Learning</td>
-<td><img src="https://img.shields.io/badge/●●●●●-95%25-0A0A1F?style=flat-square&labelColor=0A0A1F&color=00D9FF"/></td>
-<td>Scikit-learn · XGBoost · Random Forest</td>
+<td>Machine Learning</td>
+<td>Regression · Classification · Clustering · Random Forest · XGBoost</td>
 </tr>
 <tr>
-<td>👁 Computer Vision</td>
-<td><img src="https://img.shields.io/badge/●●●●○-90%25-0A0A1F?style=flat-square&labelColor=0A0A1F&color=00D9FF"/></td>
-<td>OpenCV · MediaPipe</td>
+<td>Computer Vision</td>
+<td>Real-time landmark detection · gesture recognition · frame pipelines</td>
 </tr>
 <tr>
-<td>📊 Data Science</td>
-<td><img src="https://img.shields.io/badge/●●●●●-95%25-0A0A1F?style=flat-square&labelColor=0A0A1F&color=B026FF"/></td>
-<td>NumPy · Pandas · Matplotlib · Seaborn</td>
-</tr>
-<tr>
-<td>💻 Languages</td>
-<td><img src="https://img.shields.io/badge/●●●●○-85%25-0A0A1F?style=flat-square&labelColor=0A0A1F&color=00D9FF"/></td>
-<td>Python · Java · C++</td>
+<td>Data Science</td>
+<td>Data preprocessing · feature engineering · model evaluation</td>
 </tr>
 </table>
 
 <br/>
 
-## 🛠 `tools.env`
+## `02` — languages
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Python-0A0A1F?style=for-the-badge&logo=python&logoColor=00D9FF"/>
 <img src="https://img.shields.io/badge/Java-0A0A1F?style=for-the-badge&logo=openjdk&logoColor=00D9FF"/>
 <img src="https://img.shields.io/badge/C++-0A0A1F?style=for-the-badge&logo=cplusplus&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/OpenCV-0A0A1F?style=for-the-badge&logo=opencv&logoColor=B026FF"/>
-<img src="https://img.shields.io/badge/MediaPipe-0A0A1F?style=for-the-badge&logo=google&logoColor=B026FF"/>
-<br/>
-<img src="https://img.shields.io/badge/Scikit--learn-0A0A1F?style=for-the-badge&logo=scikitlearn&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/XGBoost-0A0A1F?style=for-the-badge&logo=xgboost&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/NumPy-0A0A1F?style=for-the-badge&logo=numpy&logoColor=B026FF"/>
-<img src="https://img.shields.io/badge/Pandas-0A0A1F?style=for-the-badge&logo=pandas&logoColor=B026FF"/>
-<br/>
-<img src="https://img.shields.io/badge/Claude-0A0A1F?style=for-the-badge&logo=anthropic&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/MCP-0A0A1F?style=for-the-badge&logo=protocolsdotio&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/Cursor-0A0A1F?style=for-the-badge&logo=cursor&logoColor=B026FF"/>
-<img src="https://img.shields.io/badge/VS%20Code-0A0A1F?style=for-the-badge&logo=visualstudiocode&logoColor=B026FF"/>
-<img src="https://img.shields.io/badge/Google%20Colab-0A0A1F?style=for-the-badge&logo=googlecolab&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/Streamlit-0A0A1F?style=for-the-badge&logo=streamlit&logoColor=00D9FF"/>
 
 </div>
 
 <br/>
 
-## 🚀 `deployed_systems[]`
+## `03` — frameworks & libraries
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/OpenCV-0A0A1F?style=for-the-badge&logo=opencv&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/MediaPipe-0A0A1F?style=for-the-badge&logo=google&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Scikit--learn-0A0A1F?style=for-the-badge&logo=scikitlearn&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/XGBoost-0A0A1F?style=for-the-badge&logoColor=B026FF"/>
+<br/>
+<img src="https://img.shields.io/badge/NumPy-0A0A1F?style=for-the-badge&logo=numpy&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Pandas-0A0A1F?style=for-the-badge&logo=pandas&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Matplotlib-0A0A1F?style=for-the-badge&logo=plotly&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Seaborn-0A0A1F?style=for-the-badge&logoColor=00D9FF"/>
+
+</div>
+
+<br/>
+
+## `04` — tools & platforms
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/VS%20Code-0A0A1F?style=for-the-badge&logo=visualstudiocode&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Cursor-0A0A1F?style=for-the-badge&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Google%20Colab-0A0A1F?style=for-the-badge&logo=googlecolab&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Streamlit-0A0A1F?style=for-the-badge&logo=streamlit&logoColor=00D9FF"/>
+<br/>
+<img src="https://img.shields.io/badge/Jupyter-0A0A1F?style=for-the-badge&logo=jupyter&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Excel-0A0A1F?style=for-the-badge&logo=microsoftexcel&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Claude-0A0A1F?style=for-the-badge&logo=anthropic&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/MCP-0A0A1F?style=for-the-badge&logoColor=B026FF"/>
+
+</div>
+
+<br/>
+
+## `05` — deployed systems
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 🖐 AI Virtual Mouse
-> Real-time hand-gesture recognition system for cursor control via landmark detection and frame-processing optimization.
-
+**AI Virtual Mouse**
+Real-time hand-gesture recognition system for cursor control via landmark detection and frame-processing optimization.
 `OpenCV` `MediaPipe` `Python`
 
 </td>
 <td width="50%" valign="top">
 
-### 🏋 Workout Recommender System
-> ML-based recommendation engine delivering personalized workout suggestions using XGBClassifier.
-
+**Workout Recommender System**
+ML-based recommendation engine delivering personalized workout suggestions using XGBClassifier.
 `Python` `Pandas` `XGBoost`
 
 </td>
@@ -130,17 +137,15 @@ mission: >
 <tr>
 <td width="50%" valign="top">
 
-### 🏠 House Price Prediction System
-> Random Forest regression + classification model with feature engineering, evaluated via R² and MAE.
-
+**House Price Prediction System**
+Random Forest regression + classification model with feature engineering, evaluated via R² and MAE.
 `Scikit-learn` `Pandas` `Matplotlib`
 
 </td>
 <td width="50%" valign="top">
 
-### 🚗 Car Price Prediction Model
-> Supervised learning pipeline — data cleaning, encoding, and model validation with Random Forest.
-
+**Car Price Prediction Model**
+Supervised learning pipeline — data cleaning, encoding, and model validation with Random Forest.
 `Python` `Scikit-learn`
 
 </td>
@@ -153,18 +158,18 @@ mission: >
 
 <br/>
 
-## 🏆 `achievement_log[]`
+## `06` — achievements
 
 <table width="100%">
 <tr><td width="8%">🥇</td><td width="30%"><b>Hackathon Winner</b></td><td>Delhi University</td></tr>
-<tr><td>🥈</td><td><b>1st Runner-Up</b></td><td>Evolotek Solutions Pvt. Ltd. — hosted at Atal Bihari Vajpayee Scientific Convention Center, Lucknow, UP</td></tr>
+<tr><td>🥈</td><td><b>1st Runner-Up</b></td><td>Evolotek Solutions Pvt. Ltd. — Atal Bihari Vajpayee Scientific Convention Center, Lucknow, UP</td></tr>
 <tr><td>🎖</td><td><b>3× Hackathon Finalist</b></td><td>Multiple national-level hackathons</td></tr>
 <tr><td>👥</td><td><b>AI/ML Lead</b></td><td>GDG On Campus DCRUST (2025–2026)</td></tr>
 </table>
 
 <br/>
 
-## 📡 `system_metrics`
+## `07` — system metrics
 
 <div align="center">
 
