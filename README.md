@@ -35,35 +35,73 @@ mission: >
 <img src="https://img.shields.io/badge/⚡_CORE_SKILLS-0A0A1F?style=for-the-badge&labelColor=00D9FF&color=0A0A1F"/>
 
 </div>
+<br/>
 
 <table width="100%">
 <tr>
-<th align="left" width="25%">DOMAIN</th>
-<th align="left">APPLIED STACK</th>
+<td width="50%" valign="top">
+
+<h3 align="center">🤖 Agentic AI</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/Claude-14142B?style=flat-square&logo=anthropic&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/LangGraph-14142B?style=flat-square&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Cursor-14142B?style=flat-square&logoColor=00D9FF"/>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">✨ Generative AI</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/Claude-14142B?style=flat-square&logo=anthropic&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/LangSmith-14142B?style=flat-square&logoColor=B026FF"/>
+</p>
+
+</td>
 </tr>
 <tr>
-<td>Agentic AI</td>
-<td>Claude · LangGraph · Cursor</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🔌 MCP</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/FastMCP-14142B?style=flat-square&logoColor=00D9FF"/>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🧠 Machine Learning</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/Regression-14142B?style=flat-square&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Classification-14142B?style=flat-square&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Clustering-14142B?style=flat-square&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Random_Forest-14142B?style=flat-square&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/XGBoost-14142B?style=flat-square&logoColor=B026FF"/>
+</p>
+
+</td>
 </tr>
 <tr>
-<td>Generative AI</td>
-<td>Claude · LangSmith</td>
-</tr>
-<tr>
-<td>MCP</td>
-<td>FastMCP</td>
-</tr>
-<tr>
-<td>Machine Learning</td>
-<td>Regression · Classification · Clustering · Random Forest · XGBoost</td>
-</tr>
-<tr>
-<td>Computer Vision</td>
-<td>Real-time landmark detection · gesture recognition · frame pipelines</td>
-</tr>
-<tr>
-<td>Data Science</td>
-<td>Data preprocessing · feature engineering · model evaluation</td>
+<td width="50%" valign="top">
+
+<h3 align="center">👁 Computer Vision</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/Real--Time_Landmark_Detection-14142B?style=flat-square&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Gesture_Recognition-14142B?style=flat-square&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Frame_Pipelines-14142B?style=flat-square&logoColor=00D9FF"/>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">📊 Data Science</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/Data_Preprocessing-14142B?style=flat-square&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Feature_Engineering-14142B?style=flat-square&logoColor=B026FF"/>
+<img src="https://img.shields.io/badge/Model_Evaluation-14142B?style=flat-square&logoColor=B026FF"/>
+</p>
+
+</td>
 </tr>
 </table>
 
@@ -177,14 +215,33 @@ Supervised learning pipeline — data cleaning, encoding, and model validation w
 <img src="https://img.shields.io/badge/🏆_ACHIEVEMENTS-0A0A1F?style=for-the-badge&labelColor=B026FF&color=0A0A1F"/>
 
 </div>
-
 <br/>
 
 <table width="100%">
-<tr><td width="8%">🥈</td><td width="30%"><b>1st Runner-Up</b></td><td>Delhi University</td></tr>
-<tr><td>🥈</td><td><b>1st Runner-Up</b></td><td>Evolotek Solutions Pvt. Ltd. — Atal Bihari Vajpayee Scientific Convention Center, Lucknow, UP</td></tr>
-<tr><td>🎖</td><td><b>3× Hackathon Finalist</b></td><td>Multiple national-level hackathons</td></tr>
-<tr><td>👥</td><td><b>AI/ML Lead</b></td><td>GDG On Campus DCRUST (2025–2026)</td></tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🥈</h3>
+<h4 align="center">1st Runner-Up</h4>
+<p align="center">Delhi University</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">🥈</h3>
+<h4 align="center">1st Runner-Up</h4>
+<p align="center">Evolotek Solutions Pvt. Ltd.<br/><sub>Atal Bihari Vajpayee Scientific Convention Center, Lucknow, UP</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🎖</h3>
+<h4 align="center">3× Hackathon Finalist</h4>
+<p align="center">Multiple national-level hackathons</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">👥</h3>
+<h4 align="center">AI/ML Lead</h4>
+<p align="center">GDG On Campus DCRUST (2025–2026)</p>
+</td>
+</tr>
 </table>
 
 <br/>
